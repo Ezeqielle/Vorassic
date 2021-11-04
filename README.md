@@ -4,7 +4,7 @@
 ## 1. Règles du jeu
 -------------------------------
 
-###1.1 Plateau de jeu
+###1.1 Plateau de jeu </br>
 Le jeu se joue sur un plateau carré, de n x n cases. Chaque case contient un nombre entre 0 et 9.
 On choisira la taille n de la grille - dans l’intervalle [5 ; 26] - au début du jeu. Chacune des colonnes
 est numérotée de 0 à n-1. Les cases contiennent des valeurs entre 0 et 9. Par défaut, ces valeurs sont
@@ -88,12 +88,13 @@ Dans l'exemple ci dessous, jaune peut jouer en B0, A1, A2, A3, B3, C3, C2, C1, C
 4 | 4 | 3 | 2 | 1 | R |
 ------------------------
 
-###1.4 Fin et gain de la partie
+###1.4 Fin et gain de la partie </br>
 Le jeu s'arrête lorsque plus aucun joueur ne peut jouer. Ainsi, si rouge ne peut plus jouer mais que
 jaune peut encore jouer, la partie continue. Le vainqueur est celui qui a amassé le plus de points à la
 fin de la partie.
 
-###2. Spécification de votre programme
+##2. Spécification de votre programme
+------------------------
 Le programme minimum doit:
 a. demander la taille de la grille de jeu
 b. générer et afficher la grille de départ : celle-ci sera remplie soit par défaut comme expliqué ciavant,
@@ -105,7 +106,8 @@ f. afficher, après chaque coup l’état de la grille en mode texte dans la con
 scores. Une représentation possible est celle indiquée dans ce document mais c’est loin d’être
 la seule.
 
-###3. Extensions possibles
+#3. Extensions possibles
+----------------------
 Faire une ou plusieurs extensions vous permettra de glaner des points supplémentaires.
 Aucun barème n'est officiellement fourni, le nombre de points dépendant à la fois :
 - de la difficulté intrinsèque des améliorations apportées
@@ -126,7 +128,8 @@ relativement bien: ce sont les algorithmes dits gourmands (greedy en anglais).
 Autres extensions : N'hésitez pas à proposer et programmer vos propres extensions du programme
 telles que: jeu en réseau, version portable, …
 
-###4. Critères d'évaluation
+#4. Critères d'évaluation
+--------------------------
 Volet algorithmique :
 - à quel degré votre algorithme correspond-il aux spécifications du projet ?
 - êtes-vous capable de modifier votre algorithme en réponse à un changement de spécification ?

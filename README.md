@@ -78,31 +78,3 @@ e. gérer le déroulement et la fin de partie.
 f. afficher, après chaque coup l’état de la grille en mode texte dans la console, ainsi que les
 scores. Une représentation possible est celle indiquée dans ce document mais c’est loin d’être
 la seule.
-
-## 3. Extensions possibles
-
-Faire une ou plusieurs extensions vous permettra de glaner des points supplémentaires.
-Aucun barème n'est officiellement fourni, le nombre de points dépendant à la fois :
-
-- de la difficulté intrinsèque des améliorations apportées
-- de leur degré de finition
-- de la quantité d'améliorations apportées
-  - Extension 1 : Sauvegarde/Lecture d'une partie dans un fichier. Vous pouvez décider de sauvegarder et de reconstituer une partie à partir d'un fichier texte comportant la grille ainsi que chaque coup.
-  - Extensions 2 : Améliorations du jeu. Vous pouvez proposer des éléments nouveaux qui rende le jeu plus sophistiqué : Ajout de murs (des cases imprenables), des cases à valeur négatives, jeu multijoueur (4, un dans chaque coin)
-  - Extension 3 : Affichage graphique. Vous pouvez décider d’afficher une vrai grille en mode graphique. Vous pouvez aussi réagir aux clics de la souris sur les zones de votre grille, au lieu de lire les coups sur la console.
-  - Extension 4 : Intelligence artificielle. Vous pouvez écrire un programme qui permet à un joueur humain de jouer contre l’ordinateur. Vous pouvez par exemple vous documenter sur l'algorithme minmax.
-
-Il existe aussi des algorithmes très simples, facilement implémentables, et qui marchent
-relativement bien: ce sont les algorithmes dits gourmands (greedy en anglais).
-Autres extensions : N'hésitez pas à proposer et programmer vos propres extensions du programme
-telles que: jeu en réseau, version portable, …
-
-## 4. Critères d'évaluation
-
-Volet algorithmique :
-
-- à quel degré votre algorithme correspond-il aux spécifications du projet ?
-- êtes-vous capable de modifier votre algorithme en réponse à un changement de spécification ?
-- le découpage en fonctions rend il l’algorithme
-o factorisé (sans code dupliqué)
-o lisible et facilement maintenable

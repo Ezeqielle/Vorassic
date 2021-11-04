@@ -1,3 +1,7 @@
+// Script name: cVorassic
+// Description: read the readme
+// Made by: Ezeqielle
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
